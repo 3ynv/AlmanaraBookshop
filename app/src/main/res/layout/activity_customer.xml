@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ARCustomer">
+
+    <TextView
+        android:id="@+id/t1ar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#181D31"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="220dp"
+        android:text="Al-Manara Library is one of the oldest libraries in the Sultanate of Oman and has 4 branches in the state of Seeb (South Al-Hail- the main branch -, Al-Khoud, Al-Mabela, Al-Seeb market). Al Manara Library offers many stationery and office tools that students and office owners can benefit from, such as pens, notebooks, rulers, files, and other things." />
+
+    <Button
+        android:id="@+id/b14ar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="540dp"
+        android:text="Contact us" />
+    <Button
+        android:id="@+id/b15ar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF0000"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:text="Back" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/logo"/>
+</RelativeLayout>
